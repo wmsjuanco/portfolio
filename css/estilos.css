@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'monserrat' sans-serif;
+}
+
+#contacto {
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: cover;
+}
+
+#Proyectos {
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: cover;
+
+}
+
+#inicio {
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: cover;
+}
+
+h1 {
+    color: #E20000;
+    font-weight: 400;
+
+}
+
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-rojo {
+    color: white;
+    background-color: #E20000;
+    border: 0px;
+    border-radius: 17px;
+
+
+}
+
+.btn-rojo:hover {
+    color: #E20000;
+    background-color: #370a6d;
+}
+
+#contacto p {
+    color: #6a6a6a;
+    font-weight: 2px;
+}
+
+#contacto footer {
+    color: white;
+}
+
+#contacto footer a {
+    color: white;
+}
+
+#contacto footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+#contacto footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#Proyectos footer {
+    color: #ff4a49;
+}
+
+#Proyectos footer a {
+    color: #ff4a49;
+}
+
+#Proyectos footer .fa-github {
+    font-size: 30px;
+    color: #ff4a49;
+}
+
+#Proyectos footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+.active {
+    border: 1px solid #E20000;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.nav-link {
+    color: #282828;
+}
+
+.dowload-cv {
+    display: block;
+    background-color: rgb(231, 7, 7);
+    border: #b92020 solid 1px;
+    border-radius: 15px;
+}
+
+.dowload-cv a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 30;
+    color: white;
+    
+}
+
+.dowload-cv:hover {
+    background-color: #370a6d;
+}
+
+.btn-whatsapp {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    background-color: green;
+    color: white;
+}
+
+.btn-whatsapp a {
+    color: white !important;
+}
+
+.proyecto {
+    background-color: white;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    /* eseta declaracion es para cambiar la letra de min. a may.*/
+    color: white;
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    padding: 16px;
+
+
+}
+
+.proyecto img {
+    height: 212px;
+}
+
+.proyecto p {
+    font-size: 14px;
+    height: 130px;
+    color: #6a6a6a;
+    font-weight: 2px;
+}
+
+@media (max-width: 750px) {
+    #contacto {
+        background-image: url("../imagenes/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    #Proyectos {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+#inicio img {
+    height: 400px;
+    cursor: pointer;
+  
+
+
+}
+
+#inicio img:hover {
+    height: 410px;
+    
+}
+
+
+#inicio p {
+    color: white;
+    display: block;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+ 
+    
+}
+
+.link-rojo {
+    color: #E20000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cohete{
+    height: 410px;
+}
+.stack{
+    background-color: aqua;
+
+
+}
+.stack img{
+   width: 40px;
+   display: inline-flex;
+}
+.tecn{
+    background-color: #6a6a6a;
+    
+   
+
+} height: 150px;
+border: 5px;
+margin-bottom: 5px;
