@@ -131,7 +131,7 @@ h1 {
     font-size: 18px;
     font-weight: 30;
     color: white;
-    
+
 }
 
 .dowload-cv:hover {
@@ -184,7 +184,7 @@ h1 {
         background-image: url("../imagenes/fondo-proyectos.png");
         background-size: contain;
         background-repeat: no-repeat;
-        
+
     }
 
     #Proyectos {
@@ -196,14 +196,14 @@ h1 {
 #inicio img {
     height: 400px;
     cursor: pointer;
-  
+
 
 
 }
 
 #inicio img:hover {
     height: 410px;
-    
+
 }
 
 
@@ -214,8 +214,8 @@ h1 {
     border: 1px solid white;
     border-radius: 50px;
     font-weight: 600;
- 
-    
+
+
 }
 
 .link-rojo {
@@ -224,23 +224,66 @@ h1 {
     font-size: 18px;
 }
 
-.cohete{
+.cohete {
     height: 410px;
 }
-.stack{
-    background-color: aqua;
 
+#tecnologias {
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
 
+#experiencialab h2 {
+    color: #370a6d;
+    font-weight: 400;
+    font-size: 29px;
 }
-.stack img{
-   width: 40px;
-   display: inline-flex;
+
+#experiencialab h3 {
+    color: #6a6a6a;
+    font-weight: 600;
+    font-size: 18px;
 }
-.tecn{
+
+#experiencialab h4 {
+    color: #370a6d;
+    font-size: 17px;
+}
+
+#experiencialab h5 {
+    color: #370a6d;
+    font-size: 14px;
+}
+
+.stack h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.stack img {
+    height: 65px;
+}
+
+.tecn {
     background-color: #6a6a6a;
-    
-   
+    border-radius: 10px;
+    height: 182px;
+}
 
-} height: 150px;
-border: 5px;
-margin-bottom: 5px;
+.tecn h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}
+
+.mi-foto {
+    border-radius: 600px;
+    height: 300px;
+}
+.baw {
+    -webkit-filter: grayscale(100%); /*  esta regla es para darle el hover*/
+    filter: grayscale(100%);
+}
+.baw:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+}
