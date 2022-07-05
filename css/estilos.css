@@ -273,15 +273,20 @@ h1 {
     font-size: 14px;
     color: black;
     font-weight: 300;
+    
 }
 
 .mi-foto {
-    border-radius: 600px;
-    height: 300px;
+    border-radius: 400px;
+                       /*borre el heigth-porque cambiaba el formato de la imagen*/
+    display: block;
+    background-color: white;
+    padding: 10px;
+    margin: 1em auto;
 }
 .baw {
     -webkit-filter: grayscale(100%); /*  esta regla es para darle el hover*/
-    filter: grayscale(100%);
+    filter: grayscale(100%);         /* del las img con color a gris*/
 }
 .baw:hover {
     -webkit-filter: grayscale(100%);
