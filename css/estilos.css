@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: 'monserrat' sans-serif;
+    font-family: 'Montserrat' sans-serif ;
+    margin: 0px;
 }
 
 #contacto {
@@ -22,7 +23,8 @@ body {
 
 h1 {
     color: #E20000;
-    font-weight: 400;
+    font-weight: 450;
+    font-size: 36px;
 
 }
 
@@ -31,6 +33,8 @@ h1 {
     background-color: white;
     border: 0px;
     border-radius: 15px;
+    font-weight: 300;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .15s ease-in-out,box-shadow .20s ease-in-out;
 }
 
 .btn:hover {
@@ -43,7 +47,7 @@ h1 {
     background-color: #E20000;
     border: 0px;
     border-radius: 17px;
-
+    font-weight: 100 !important;
 
 }
 
@@ -52,7 +56,7 @@ h1 {
     background-color: #370a6d;
 }
 
-#contacto p {
+p {
     color: #6a6a6a;
     font-weight: 2px;
 }
@@ -124,6 +128,7 @@ h1 {
     background-color: rgb(231, 7, 7);
     border: #b92020 solid 1px;
     border-radius: 15px;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .15s ease-in-out,box-shadow .20s ease-in-out;
 }
 
 .dowload-cv a {
@@ -155,6 +160,7 @@ h1 {
 
 .proyecto {
     background-color: white;
+    border-radius: 5px;
 }
 
 .proyecto h2 {
@@ -273,22 +279,47 @@ h1 {
     font-size: 14px;
     color: black;
     font-weight: 300;
-    
+
 }
 
 .mi-foto {
     border-radius: 400px;
-                       /*borre el heigth-porque cambiaba el formato de la imagen*/
+    /*borre el heigth-porque cambiaba el formato de la imagen*/
     display: block;
     background-color: white;
     padding: 10px;
     margin: 1em auto;
 }
+
 .baw {
-    -webkit-filter: grayscale(100%); /*  esta regla es para darle el hover*/
-    filter: grayscale(100%);         /* del las img con color a gris*/
+    -webkit-filter: grayscale(100%);
+    /*  esta regla es para darle el hover*/
+    filter: grayscale(100%);
+    /* del las img con color a gris*/
 }
+
 .baw:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(0%);
+}
+#formacion h2 {
+    color: #E20000;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#formacion h3 {
+    color: #6a6a6a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#formacion h4 {
+    color: #E20000;
+    font-size: 17px;
+}
+
+#formacion h5 {
+    color: #6a6a6a;
+    font-size: 14px;
 }
