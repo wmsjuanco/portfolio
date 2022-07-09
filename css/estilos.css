@@ -270,7 +270,7 @@ p {
 }
 
 .tecn {
-    background-color: #6a6a6a;
+    background-color: white;
     border-radius: 10px;
     height: 182px;
 }
@@ -320,6 +320,43 @@ p {
 }
 
 #formacion h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+#idiomas .violeta{
+    background-color: #370a6d; 
+    color: white;
+    font-size: 50px;   
+    
+    border-radius: 10px;
+
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas .cofre{
+    background-color: white;
+    border-radius: 10px;
+
+}
+#curso h2 {
+    color: #E20000;
+    font-weight: 400;
+    font-size: 24px;
+}
+#curso h3 {
+    color: #6a6a6a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#curso h4 {
+    color: #E20000;
+    font-size: 17px;
+}
+
+#curso h5 {
     color: #6a6a6a;
     font-size: 14px;
 }
